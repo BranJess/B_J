@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un nuevo nosotros...</title>
+
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    Body {
+        text-align: center;
+        background-image: linear-gradient(135deg, #000000, #601707, #D21414, #D52B2B, #0ADF17, #0B8A2A, #032D0E, #000000);
+        background-size: 500%;
+        animation: fanimado 10s infinite;
+    }
+    @keyframes fanimado{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    </style>
+</head>
+    <script>
+        function cuandoEllaDigaQueSi(){
+        alert('Hoy acabas de escoger y esa elección fue de las mejores de tu vida, a partir de hoy me encargaré de cuidarte, protegerte, quererte y amarte, seas tú un miembro más de mi familia y yo de tu familia, te juro con mi vida que nunca te seré infiel, porque acabo de encontrar el tesoro que siempre he deseado, aunque en algún momento peleemos o dejemos de hablar haré todo lo imposible para que eso no suceda y me declararé hacia ti cuantas veces sea necesaria para no terminar nunca, aunque te aburras de mí yo buscaré la forma de cambiar para que no me dejes porque te amo, y feliz primer día y muchos más como novios <33');
+        }
+        function mueveElBoton(){
+        width = window.innerWidth;
+        height = window.innerHeight;
+        newWidth = (Math.random() * width);
+        newHeight = (Math.random() * height);
+
+        document.getElementById('btnNo').style.position = "absolute";
+        document.getElementById('btnNo').style.left = newWidth + "px";
+        document.getElementById('btnNo').style.top = newHeight + "px";
+    }
+    </script>
+<body>
+    <h1>¿QUIERES SER MI NOVIA?</h1>
+    <input type="button" onclick="cuandoEllaDigaQueSi()" id="btnSi" value="Sis" />
+    <input type="button" class="btnB" id="btnNo" onmouseover="mueveElBoton()" value="Non" />
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a href="declar.html">Volver a donde me conociste...</a>
+    
+</body>
+</html>
