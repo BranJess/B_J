@@ -1,7 +1,6 @@
 # B_J
 
 Brandon y Jessiee
-<!DOCTYPE html>
 <html lang="en">
 
     <head>
