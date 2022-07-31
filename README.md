@@ -69,12 +69,8 @@ Brandon y Jessiee
         <br><ul>
             <li><a href="declaracion.html"><i>He aquí mi mayor esfuerzo, única y exclusivamente para ti...</i></a></li>
         </ul>
-    </body>
 <!-- <img src="el nombre y ubicación de la imagen"> Ojo, solo se cierra línea de código, src significa, source --> 
 <!-- <video src="aquí va el enlace, URL del vídeo con su respectivo formato" controls>
      </video> --> 
 <!-- <audio src="la URL del audio con su respectivo formato, mp4, ogg, etc" controls> El comando controls, sirve para reproducir un video o audio
      </audio> -->
-
-
-</html>
